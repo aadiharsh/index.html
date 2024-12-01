@@ -1,24 +1,2 @@
-<html>
-<head><title>GAFNU@</title>
-<meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
-    <script>
-        function checkLogin() {
-            // Get values from the form
-            const userID = document.getElementById("userID").value;
-            const password = document.getElementById("password").value;
-
-            // Hardcoded ID and password for demo
-            if (userID === "aaditya" && password === "gafnu@2024") {
-                // Redirect to another page
-                window.location.href = "welcome.html";
-            } else {
-                alert("Invalid ID or Password! Try again.");
-            }
-        }
-    </script>
-</head>
-</html>
 
 
